@@ -1,0 +1,20 @@
+name: ContainerLock
+main: net.gummycraft.containerLock.LocksMain
+version: 0.13b
+commands:
+  lock:
+    description: Alter the locks on a chest
+    usage: /<command> +player1 -player2 (adds or removes players access)
+permissions:
+  lock.add:
+    description: Lets user add players to locks they own
+    default: true
+  lock.open:
+    description: Lets users open chests they have access to
+    default: true
+  lock.info:
+    description: Lets users get (detailed) info on chests they have access to
+    default: true
+  lock.destroy:
+    description: Lets users destrory chests they own
+    default: true
